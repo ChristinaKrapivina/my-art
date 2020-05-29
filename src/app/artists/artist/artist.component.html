@@ -1,0 +1,10 @@
+<div *ngFor="let artist of artists" class="artist">
+     <img [src]="artist.portrait" [alt]="artist.name + ' portrait'" class="artist__img">
+     <p class="artist__name">
+          {{ artist.name }}
+     </p>
+     <p class="artist__country">
+          {{ artist.country }}
+     </p>
+     <button>Works</button>
+</div>

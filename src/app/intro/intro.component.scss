@@ -1,0 +1,12 @@
+.intro {
+     background: black;
+     color: white;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     &__title {
+          font-size: 10rem;
+     }
+}
