@@ -1,10 +1,14 @@
 <div *ngFor="let artist of artists" class="artist">
-     <img [src]="artist.portrait" [alt]="artist.name + ' portrait'" class="artist__img">
-     <p class="artist__name">
-          {{ artist.name }}
-     </p>
-     <p class="artist__country">
-          {{ artist.country }}
-     </p>
-     <button>Works</button>
+     <div class="artist__img">
+          <img [src]="artist.portrait" [alt]="artist.name + ' portrait'" class="img">
+     </div>
+     <div class="artist__content">
+          <p class="artist__name">
+               {{ artist.name }}
+          </p>
+          <p class="artist__country">
+               {{ artist.country }}
+          </p>
+     </div>
+     <button class="artist__button">Works</button>
 </div>
