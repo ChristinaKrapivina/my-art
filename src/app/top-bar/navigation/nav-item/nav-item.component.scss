@@ -1,0 +1,24 @@
+@import './../../../../variables.scss';
+
+.item {
+     display: inline;
+     margin-left: 3rem;
+     &__link {
+          position: relative;
+          font-family: 'Dancing Script', cursive;
+          font-size: 2rem;
+          text-decoration: none;
+          &:hover {
+               cursor: pointer;
+               &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -0.5rem;
+                    height: 2px;
+                    background: $txt-main;
+               }
+          }
+     }
+}
