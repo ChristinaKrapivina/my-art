@@ -1,9 +1,11 @@
+@import './../../variables.scss';
+
 .header {
      position: fixed;
      height: 80px;
      width: 100%;
-     background: black;
-     color: white;
+     background: $bg-main;
+     box-shadow: 0 0 1rem $txt-main;
      &__container {
           display: flex;
           align-items: center;
