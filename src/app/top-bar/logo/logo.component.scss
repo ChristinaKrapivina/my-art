@@ -1,0 +1,10 @@
+@import './../../../variables.scss';
+
+.logo {
+     &__circle {
+          height: 2.5rem;
+          width: 2.5rem;
+          border: 0.25rem solid $txt-main;
+          border-radius: 50%;
+     }
+}
