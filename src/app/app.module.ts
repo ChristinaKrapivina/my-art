@@ -10,6 +10,7 @@ import { NavItemComponent } from './top-bar/navigation/nav-item/nav-item.compone
 import { IntroComponent } from './intro/intro.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { ArtistComponent } from './artists/artist/artist.component';
+import { WorksComponent } from './works/works.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ArtistComponent } from './artists/artist/artist.component';
     NavItemComponent,
     IntroComponent,
     ArtistsComponent,
-    ArtistComponent
+    ArtistComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,
