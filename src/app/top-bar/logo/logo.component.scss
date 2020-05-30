@@ -4,7 +4,8 @@
      &__circle {
           height: 2.5rem;
           width: 2.5rem;
-          border: 0.25rem solid $txt-main;
+          border: 0.25rem solid transparent;
           border-radius: 50%;
+          box-shadow: 0 0 4px $txt-main;
      }
 }
