@@ -9,7 +9,7 @@ import { NavItem } from 'src/interfaces';
 export class NavItemComponent implements OnInit {
   navItems: NavItem[] = [
     {title: 'Artists', href: '/artists'},
-    {title: 'Art Streams', href: '/streams'},
+    {title: 'Art Movements', href: '/movements'},
   ];
   
   constructor() { }
