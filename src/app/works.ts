@@ -1,4 +1,4 @@
-export const works = [
+ export const works = [
      {
           paintings: [
                {

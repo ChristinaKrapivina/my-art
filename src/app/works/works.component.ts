@@ -17,7 +17,7 @@ export class WorksComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      let work = works[+params.get('productId')];
+      let work = works[+params.get('worksId')];
       this.listOfWork = work.paintings;
     });
   }
