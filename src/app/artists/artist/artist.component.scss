@@ -1,8 +1,9 @@
 @import './../../../variables.scss';
+@import './../../../mixins.scss';
 
 .artist {
      position: relative;
-     box-shadow: 0 0 4px $txt-main;
+     @include shadow-primary;
      &__img {
           position: relative;
           height: 200px;
@@ -31,7 +32,7 @@
 
           background: $bg-main;
           border: none;
-          box-shadow: 0 0 4px $txt-main;
+          @include shadow-primary;
           color: $txt-main;
           font-family: 'Dancing Script', cursive;
           font-size: 2rem;
