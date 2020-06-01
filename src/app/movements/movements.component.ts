@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movements.component.scss']
 })
 export class MovementsComponent implements OnInit {
+  title: string = "Modern Art Movements"
 
   constructor() { }
 
