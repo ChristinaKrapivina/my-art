@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { artists } from '../../artists';
+import { Artist } from 'src/interfaces';
 
 @Component({
   selector: 'app-artist',
@@ -8,7 +9,7 @@ import { artists } from '../../artists';
   styleUrls: ['./artist.component.scss']
 })
 export class ArtistComponent implements OnInit {
-  artists = artists;
+  artists: Artist[] = artists;
 
   constructor() { }
 

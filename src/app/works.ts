@@ -1,4 +1,6 @@
- export const works = [
+import { Work } from 'src/interfaces';
+
+ export const works: { paintings: Work[]}[] = [
      {
           paintings: [
                {

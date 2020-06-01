@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { works } from './../works';
+import { Work } from 'src/interfaces';
 
 @Component({
   selector: 'app-works',
@@ -9,7 +10,7 @@ import { works } from './../works';
   styleUrls: ['./works.component.scss']
 })
 export class WorksComponent implements OnInit {
-  listOfWork;
+  listOfWork: Work[];
 
   constructor(
     private route: ActivatedRoute,

@@ -1,4 +1,6 @@
-export const artists = [
+import { Artist } from 'src/interfaces';
+
+export const artists: Artist[] = [
      {
           portrait: 'https://i.pinimg.com/originals/6c/04/9d/6c049d4af5d3ab8579d6594b7ba36279.jpg',
           name: 'Salvador Dalí',
