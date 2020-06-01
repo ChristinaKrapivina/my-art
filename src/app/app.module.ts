@@ -12,6 +12,7 @@ import { ArtistsComponent } from './artists/artists.component';
 import { ArtistComponent } from './artists/artist/artist.component';
 import { WorksComponent } from './works/works.component';
 import { MovementsComponent } from './movements/movements.component';
+import { MovementComponent } from './movement/movement.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MovementsComponent } from './movements/movements.component';
     ArtistsComponent,
     ArtistComponent,
     WorksComponent,
-    MovementsComponent
+    MovementsComponent,
+    MovementComponent
   ],
   imports: [
     BrowserModule,
