@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 @mixin shadow-primary {
      box-shadow: 0 0 1rem $txt-main;
 }

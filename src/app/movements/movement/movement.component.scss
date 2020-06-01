@@ -1,0 +1,51 @@
+@import './../../../mixins.scss';
+@import './../../../variables.scss';
+
+.movement {
+     position: relative;
+     padding: 2rem;
+     width: 100%;
+     @include shadow-primary;
+     overflow: hidden;
+     &:hover {
+          .movement__button {
+               transform: translateX(0);
+          }
+     }
+     &__name {
+          margin-bottom: 1rem;
+          font-size: 2rem;
+          text-align: center;
+     }
+     &__button {
+          position: absolute;
+          bottom: 5%;
+          left: 0;
+          width: 50%;
+          padding: 1rem;
+
+          background: rgba($color: $bg-main, $alpha: 0.5);
+          border: 0;
+          @include shadow-primary;
+          color: $txt-main;
+          font-weight: 600;
+          text-transform: uppercase;
+          transform: translateX(-110%);
+          transition: 0.5s;
+          &:hover {
+               background: $txt-main;
+               color: $bg-main;
+          }
+     }
+}
+.banner {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 300px;
+     overflow: hidden;
+     &__img {
+          height: 100%;
+          width: auto;
+     }
+}

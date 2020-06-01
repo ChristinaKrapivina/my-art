@@ -1,1 +1,13 @@
-<p>movement works!</p>
+<section *ngFor="let movement of movements" class="movement">
+     <h3 class="movement__name">{{ movement.name }}</h3>
+     <div class="movement__banner banner">
+          <img [src]="movement.banner.img" [alt]="movement.banner.name" class="banner__img">
+          <!-- <div class="banner__content">
+               <p class="banner__artist">{{ movement.banner.artist }}</p>
+               <p class="banner__name">{{ movement.banner.name }}</p>
+               <p class="banner__date">{{ movement.banner.year }}</p>
+               <p class="banner__details">{{ movement.banner.details }}</p>
+          </div> -->
+     </div>
+     <button class="movement__button">Read More ...</button>
+</section>
