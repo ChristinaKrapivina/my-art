@@ -13,3 +13,14 @@ export interface Work {
      date: string,
      period?: string,
 }
+export interface Movement {
+     banner: {
+          img: string,
+          artist: string,
+          name: string,
+          year: string,
+          details: string
+     },
+     name: string,
+     description: string,
+}
