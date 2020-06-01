@@ -1,1 +1,14 @@
-<p>works works!</p>
+<div *ngIf="listOfWork" class="works works--masonry">
+     <div *ngFor="let work of listOfWork" class="work">
+          <img [src]="work.img" [alt]="work.name" class="work__img">
+     </div>
+</div>
+
+<!-- <div *ngIf="listOfWork">
+     <div *ngFor="let work of listOfWork">
+          <h3>{{ work.name }}</h3>
+          <h4>{{ work.date }}</h4>
+          <p>{{ work.period }}</p>
+          
+     </div>
+</div> -->

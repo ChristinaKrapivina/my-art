@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavItemComponent implements OnInit {
   navItems = [
-    {title: 'Artists', href: '#artists'},
+    {title: 'Artists', href: '/artists'},
     {title: 'Art Streams', href: '#'},
   ];
   

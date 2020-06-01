@@ -1,4 +1,4 @@
-<div *ngFor="let artist of artists" class="artist">
+<div *ngFor="let artist of artists; index as worksId" class="artist">
      <div class="artist__img">
           <img [src]="artist.portrait" [alt]="artist.name + ' portrait'" class="img">
      </div>
@@ -10,5 +10,5 @@
                {{ artist.country }}
           </p>
      </div>
-     <button class="artist__button">Works</button>
+     <button [routerLink]="['/works', worksId]" class="artist__button">Works</button>
 </div>
