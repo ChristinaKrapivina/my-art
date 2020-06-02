@@ -1,0 +1,15 @@
+<section *ngIf="movement" class="details">
+     <h2 class="details__name title">{{ movement.name }}</h2>
+     <div class="details__banner banner">
+          <img [src]="movement.banner.img" [alt]="movement.banner.name" class="banner__img">
+          <div class="banner__content">
+               <p class="banner__artist">{{ movement.banner.artist }}</p>
+               <p class="banner__name">{{ movement.banner.name }}</p>
+               <p class="banner__date">{{ movement.banner.year }}</p>
+               <p class="banner__details">{{ movement.banner.details }}</p>
+          </div>
+     </div>
+     <p class="details__description">
+          {{ movement.description }}
+     </p>
+</section>

@@ -1,0 +1,38 @@
+@import './../../../mixins.scss';
+
+.details {
+     padding: 2rem;
+     &__name {
+          margin-bottom: 2rem;
+     }
+     &__banner {
+          margin: 0 auto 2rem;
+          width: 50vw;
+     }
+     &__description {
+          margin: 2rem auto;
+          width: 50vw;
+          line-height: 1.5;
+     }
+}
+.banner {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     @include shadow-primary;
+     &__img {
+          height: auto;
+          width: 100%;
+     }
+     &__content {
+          position: absolute;
+          top: 2rem;
+          right: -20vw;
+          width: 20vw;
+          padding-left: 2rem;
+          & * {
+               margin-bottom: 0.5rem;
+          }
+     }
+}
