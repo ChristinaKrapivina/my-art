@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { movements } from '../../movements';
+import { movements } from '../../_tempDB/movements';
 import { Movement } from 'src/interfaces';
 
 @Component({

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { movements } from '../../movements';
+import { movements } from '../../_tempDB/movements';
 import { Movement } from 'src/interfaces';
 
 @Component({

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { artists } from '../../artists';
+import { artists } from '../../_tempDB/artists';
 import { Artist } from 'src/interfaces';
 
 @Component({

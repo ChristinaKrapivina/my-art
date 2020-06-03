@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { works } from './../works';
+import { works } from '../_tempDB/works';
 import { Work } from 'src/interfaces';
 
 @Component({
